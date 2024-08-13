@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Festivals.com</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+     crossorigin="anonymous">
+    
+</head>
+<style>
+    #marquee {
+    padding: 50px 0px;
+    width: 100%;
+}
+
+#marquee .flexx-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+#marquee .pic-container {
+    display: flex;
+    animation: marquee 10s infinite linear;
+}
+
+/* #marquee:hover {
+    animation-play-state: paused;
+} */
+#marquee .pic-container .pic {
+    flex-basis: 20%;
+    flex-shrink: 0;
+}
+
+#marquee img {
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid rgba(238, 231, 231, 0.9);
+}
+
+@media (max-width: 1024px) {
+    #marquee .pic-container .pic {
+        flex-basis: 25%;
+    }
+}
+
+@media (max-width: 768px) {
+    #marquee .pic-container .pic {
+        flex-basis: 33.33%;
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@media (max-width: 1024px) {
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-125%);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-186.65%);
+        }
+    }
+}
+</style>
+<body>
+
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" class="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars navbar-toggler-icon" style="color: black; font-size: 30px;"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#hero-content">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="Gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Religions
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="Islam.html">Islam</a></li>
+                      <li><a class="dropdown-item" href="judaism.html">Judaism</a></li>
+                      <li><a class="dropdown-item" href="buddhism.html">Buddhism</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="site map.html">SiteMap</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+<!-- ///////////////////////////////////////////////////// -->
+
+    <div class="hero-content" id="hero-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 offset-lg-2 col-lg-10">
+                    <div class="entry-header">
+                        <h2>Hello Festives!</h2>
+
+                        <div class="entry-meta-date">
+                            4.19.2024 
+                        </div>
+                    </div>
+                    <h1 style="text-align: center;">The Coming Festival</h1>
+                    <div class="countdown flex flex-wrap justify-content-between" data-date="2024/04/044">
+                        
+                        <ul class="d-flex">
+                            <li >Days</li>
+                            <li>Hours</li>
+                            <li>Minutes</li>
+                            <li>Seconds</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 ">
+                    <div class="entry-footer">
+                        <a href="#" class="btn">Get The Detail's</a>
+                        <a href="#" class="btn current">Look at the History</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- /////////////////////////////////// -->
+    <div class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="headline">
+                        <div class="entry-title">
+                            <p>Our Motive</p>
+                            <h2>"Bringing Religions together through the celebration of festivals, one click at a time."</h2>
+                        </div>
+
+                        <div class="lineup-artists">
+                            <div class="lineup-artists-wrap flex flex-wrap">
+                                <figure class="featured-image">
+                                    <a href="#"> <img src="images/culture.jpg" alt=""> </a>
+                                </figure>
+
+                                <div class="lineup-artists-description">
+                                    <div class="lineup-artists-description-container">
+                                        <div class="entry-title">
+                                            diverse religious festivals
+                                        </div>
+
+                                        <div class="entry-content">
+                                            <p>Embark on a captivating journey through the vibrant tapestry of global festivals, ranging from age-old traditions steeped in cultural heritage to contemporary celebrations that reflect societies worldwide.  </p>
+                                        </div>
+
+                                        <div class="box-link">
+                                            <a href=""><img src="images/box.jpg" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="lineup-artists-wrap flex flex-wrap">
+                                <div class="lineup-artists-description">
+                                    <figure class="featured-image d-md-none">
+                                        <a href="#"> <img src="images/pc3.jpeg" alt=""> </a>
+                                    </figure>
+
+                                    <div class="lineup-artists-description-container">
+                                        <div class="entry-title">
+                                            religious diversity
+                                        </div>
+
+                                        <div class="entry-content">
+                                            <p>Empower your festival experience with our comprehensive guides, meticulously crafted to equip you with the knowledge and insights needed to navigate the intricacies of each celebration with confidence and ease</p>
+                                        </div>
+
+                                        <div class="box-link">
+                                            <a href="#"><img src="images/box.jpg" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <figure class="featured-image d-none d-md-block">
+                                    <a href="#"> <img src="images/kl.webp" alt=""> </a>
+                                </figure>
+                            </div>
+
+                            <div class="lineup-artists-wrap flex flex-wrap">
+                                <figure class="featured-image">
+                                    <a href="#"> <img src="images/photo-1592843997881-cab3860b1067.avif" alt=""> </a>
+                                </figure>
+
+                                <div class="lineup-artists-description">
+                                    <div class="lineup-artists-description-container">
+                                        <div class="entry-title">
+                                            religious boundaries
+                                        </div>
+
+                                        <div class="entry-content">
+                                            <p>Join our vibrant community of festival enthusiasts from around the globe as we come together to share experiences, exchange tips, and celebrate our shared passion for festivals.</p>
+                                        </div>
+
+                                        <div class="box-link">
+                                            <a href="#"> <img src="images/box.jpg" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+<!-- ////////////////////////////////////// -->
+
+
+
+
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="the-complete-lineup">
+                        <div class="entry-title">
+                            <p>Gallery</p>
+                            <h2>Have a glance at different festivals of different religions</h2>
+                        </div>
+
+                        <div class="row the-complete-lineup-artists">
+                            <div class="col-6 col-md-4 col-lg-3 artist-single">
+                                <figure class="featured-image">
+                                    <a href="#"> <img src="images/pc1.jpg" alt=""> </a>
+                                    <a href="#" class="box-link"> <img src="images/box.jpg" alt=""> </a>
+                                </figure>
+
+                                <h2>Muslims Celebrating Eid ul fitr</h2>
+                            </div>
+
+                            <div class="col-6 col-md-4 col-lg-3 artist-single">
+                                <figure class="featured-image">
+                                    <a href="#"> <img src="images/adha.webp" alt=""> </a>
+                                    <a href="#" class="box-link"> <img src="images/box.jpg" alt=""> </a>
+                                </figure>
+
+                                <h2>Eid ul Adha</h2>
+                            </div>
+
+                            <div class="col-6 col-md-4 col-lg-3 artist-single">
+                                <figure class="featured-image">
+                                    <a href="#"> <img src="images/pc3.jpeg" alt=""> </a>
+                                    <a href="#" class="box-link"> <img src="images/box.jpg" alt=""> </a>
+                                </figure>
+
+                                <h2>Hindus Celebrating Holi</h2>
+                            </div>
+
+                            <div class="col-6 col-md-4 col-lg-3 artist-single">
+                                <figure class="featured-image">
+                                    <a href="#"> <img src="images/pc5.webp" alt=""> </a>
+                                    <a href="#" class="box-link"> <img src="images/box.jpg" alt=""> </a>
+                                </figure>
+
+                                <h2>Chritians Celebrating Chritians</h2>
+                            </div>
+
+                            <div class="col-6 col-md-4 col-lg-3 artist-single">
+                                <figure class="featured-image">
+                                    <a href="#"> <img src="images/pc6.gif" alt=""> </a>
+                                    <a href="#" class="box-link"> <img src="images/box.jpg" alt=""> </a>
+                                </figure>
+
+                                <h2>Brasil Band</h2>
+                            </div>
+
+                            <div class="col-6 col-md-4 col-lg-3 artist-single">
+                                <figure class="featured-image">
+                                    <a href="#"> <img src="images/diya-8329247_640.webp" alt=""> </a>
+                                    <a href="#" class="box-link"> <img src="images/diya-8329247_640.webp" alt=""> </a>
+                                </figure>
+
+                                <h2>Deewali</h2>
+                            </div>
+
+                            <div class="col-6 col-md-4 col-lg-3 artist-single">
+                                <figure class="featured-image">
+                                    <a href="#"> <img src="images/pc8.jpg" alt=""> </a>
+                                    <a href="#" class="box-link"> <img src="images/box.jpg" alt=""> </a>
+                                </figure>
+
+                                <h2>Eid ul Fitr</h2>
+                            </div>
+
+                            <div class="col-6 col-md-4 col-lg-3 artist-single">
+                                <figure class="featured-image">
+                                    <a href="#"> <img src="images/pc1.jpg" alt=""> </a>
+                                    <a href="#" class="box-link"> <img src="images/box.jpg" alt=""> </a>
+                                </figure>
+
+                                <h2>Eid ul adha</h2>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="see-complete-lineup">
+                                <div class="entry-footer">
+                                    <a href="#" class="btn">See all lineup</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+<!-- ///////////////////////////// -->
+<div id="marquee">
+    <div class="entry-title">
+        <p style="text-align: center; color: black;">Festivals Overview</p>
+        <h2 style="text-align: center; color: black;">What are the most common festivals of diffrent religions</h2>
+        <br>
+    </div>
+
+    <div class="flexx-container">
+        <div class="pic-container">
+            <div class="pic">
+                <img src="images/pc1.jpg" alt="img">
+            </div>
+            <div class="pic">
+                <img src="images/pc2.avif" alt="img">
+            </div>
+            <div class="pic">
+                <img src="images/pc3.jpeg" alt="img">
+            </div>
+            <div class="pic">
+                <img src="images/pc5.webp" alt="img">
+            </div>
+            <div class="pic">
+                <img src="images/pc6.gif" alt="img">
+            </div>
+            <div class="pic">
+                <img src="images/pc7.jpg" alt="img">
+            </div>
+            <div class="pic">
+                <img src="images/pc8.jpg" alt="img">
+            </div>
+            <div class="pic">
+                <img src="images/pc5.webp" alt="img">
+            </div>
+            <div class="pic">
+                <img src="images/pc6.gif" alt="img">
+            </div>
+            <div class="pic">
+                <img src="images/pc2.avif" alt="img">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //////////////////////////// -->
+
+        <div class="home-page-last-section">
+            <div class="container">
+                <div class="header">
+                    <div class="entry-title">
+                        <p>Recent Activities In The World Of Festives!</p>
+                        <h2>Last Activity</h2>
+                    </div>
+                </div>
+
+                <div class="home-page-last-section-wrap">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <figure class="featured-image">
+                                <a href="#"> <img src="images/pc1.jpg" alt="fesival+celebration"> </a>
+                            </figure>
+
+                            <div class="box-link-date">
+                                <a href="#">13 April 2024</a>
+                            </div>
+
+                            <div class="content-wrapper">
+                                <div class="entry-content">
+                                    <div class="entry-header">
+                                        <h2><a href="#">Eid ul Fitr</a></h2>
+                                    </div>
+
+                                    <div class="entry-meta">
+                                        <span class="author-name"><a href="#">Blog no 2</a></span>
+                                        <span class="space">|</span>
+                                        <span class="comments-count"><a href="#">Eid ul fitr</a></span>
+                                    </div>
+
+                                    <div class="festive-description">
+                                        <p>Eid al-Fitr, which translates to "Festival of Breaking the Fast," marks the end of Ramadan, the holy month of fasting. It's a joyous occasion where Muslims come together to offer prayers, engage in charitable acts, and celebrate with feasts and social gatherings. It's a time for expressing gratitude to Allah for the strength and patience observed during Ramadan.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <figure class="featured-image">
+                                <a href="#"> <img src="images/pc6.gif" alt="fesival+celebration"> </a>
+                            </figure>
+
+                            <div class="box-link-date">
+                                <a href="">13 April 2024</a>
+                            </div>
+
+                            <div class="content-wrapper">
+                                <div class="entry-content">
+                                    <div class="entry-header">
+                                        <h2><a href="#">Eid ul Fitr</a></h2>
+                                    </div>
+
+                                    <div class="entry-meta">
+                                        <span class="author-name"><a href="#">Blog no 2</a></span>
+                                        <span class="space">|</span>
+                                        <span class="comments-count"><a href="#">Eid ul Fitr</a></span>
+                                    </div>
+
+                                    <div class="festive-description">
+                                        <p>Eid al-Fitr, which translates to "Festival of Breaking the Fast," marks the end of Ramadan, the holy month of fasting. It's a joyous occasion where Muslims come together to offer prayers, engage in charitable acts, and celebrate with feasts and social gatherings. It's a time for expressing gratitude to Allah for the strength and patience observed during Ramadan.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="footer-cover-title flex justify-content-center align-items-center">
+            <h2>The Festivals</h2>
+        </div>
+
+        <div class="footer-content-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="entry-title">
+                            <a href="#">The Festivals</a>
+                        </div>
+
+                        <div class="entry-mail">
+                            <a href="#">TheFestivals.COM</a>
+                        </div>
+
+                        <div class="copyright-info">
+                  
+                      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved to our team<i class="fa fa-heart" aria-hidden="true"></i>Lorem, ipsum dolor. </div>
+
+                        <div class="footer-social">
+                            <ul class="flex justify-content-center align-items-center">
+                                <li><a href="#"><i class="fa fa-pinterest" style="font-size: 50px;"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook-f"style="font-size: 50px;"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"style="font-size: 50px;"></i></a></li>
+                                <li><a href="#"><i class="fa fa-dribbble"style="font-size: 50px;"></i></a></li>
+                                <li><a href="#"><i class="fa fa-behance"style="font-size: 50px;"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin-in"style="font-size: 50px;"></i></a></li>
+                                
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </footer>
+
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+    <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+    <script type='text/javascript' src='js/swiper.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+    <script type='text/javascript' src='js/circle-progress.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+    <script type='text/javascript' src='js/custom.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+     crossorigin="anonymous"></script>
+</body>
+</html>
